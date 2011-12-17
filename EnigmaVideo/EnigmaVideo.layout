@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Win32 Release" />
+	<File name="DirectShowVideoPlayer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5752" topLine="160" />
+	</File>
+	<File name="DirectShowVideoPlayer.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="3498" topLine="57" />
+	</File>
+	<File name="IVideoPlayer.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1017" topLine="0" />
+	</File>
+	<File name="VideoPlayerGUIElementFactory.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1225" topLine="4" />
+	</File>
+	<File name="VideoPlayerGUIElementFactory.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1378" topLine="17" />
+	</File>
+	<File name="main.c" open="0" top="0" tabpos="0">
+		<Cursor position="895" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

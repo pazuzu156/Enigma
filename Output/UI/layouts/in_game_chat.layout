@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+        <Window Type="TaharezLook/FrameWindow" Name="ChatFrameWindow" >
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00947917,0},{0.03,0},{0.599479,0},{0.446919,0}}" />
+            <Window Type="TaharezLook/TabControl" Name="ChatWindow/ChatTabControl" >
+                <Property Name="TabHeight" Value="{0,32.5181}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00205508,0},{0.00298307,0},{0.999004,0},{0.995705,0}}" />
+                <Window Type="DefaultWindow" Name="ChatWindow/ChatTabControl/MainChatWindow" >
+                    <Property Name="Text" Value="Main" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="TaharezLook/Listbox" Name="ChatWindow/ChatTabControl/MainChatWindow/MainChatListBox" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.00425312,0},{0.00223599,0},{0.99539,0},{0.880688,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Editbox" Name="ChatWindow/ChatTabControl/MainChatWindow/MainChatEditbox" >
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00513874,0},{0.886176,0},{0.995393,0},{0.998244,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="ChatWindow/ChatTabControl/PartyChatWindow" >
+                    <Property Name="Text" Value="Party" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="TaharezLook/Listbox" Name="ChatWindow/ChatTabControl/PartyChatWindow/PartyChatListBox" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.00425312,0},{0.00223599,0},{0.99539,0},{0.880688,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Editbox" Name="ChatWindow/ChatTabControl/PartyChatWindow/PartyChatEditbox" >
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00513874,0},{0.886176,0},{0.995393,0},{0.998244,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="ChatWindow/ChatTabControl/GuildChatWindow" >
+                    <Property Name="Text" Value="Guild" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="TaharezLook/Listbox" Name="ChatWindow/ChatTabControl/GuildChatWindow/GuildChatListBox" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.00425312,0},{0.00223599,0},{0.99539,0},{0.880688,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Editbox" Name="ChatWindow/ChatTabControl/GuildChatWindow/GuildChatEditbox" >
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00513874,0},{0.886176,0},{0.995393,0},{0.998244,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="ChatWindow/ChatTabControl/MiscChatWindow" >
+                    <Property Name="Text" Value="Misc" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="TaharezLook/Listbox" Name="ChatWindow/ChatTabControl/MiscChatWindow/MiscChatListBox" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.00425312,0},{0.00223599,0},{0.99539,0},{0.880688,0}}" />
+                    </Window>
+                    <Window Type="TaharezLook/Editbox" Name="ChatWindow/ChatTabControl/MiscChatWindow/MiscChatEditbox" >
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00513874,0},{0.886176,0},{0.995393,0},{0.998244,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+</GUILayout>

@@ -1,0 +1,7 @@
+Update method for messages gets called multiple times on server because it is called inside of "ReallySend".
+	Need some kind of check to prevent multiple executions for protocol messages that actually use it.
+
+DoAudioEvents() will require scene to have a shared lock as well because the choords for entities will be need
+for the whole 3D sound thing.
+
+GetId() & SetId() are not locked like they should be because it causes the compiler to crash.

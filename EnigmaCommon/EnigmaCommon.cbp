@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EnigmaCommon" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Debug">
+				<Option platforms="Windows;" />
+				<Option output="Bin-Win\libEnigmaCommon" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="msvctk" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MT" />
+					<Add option="/GL" />
+					<Add option="/GX" />
+					<Add option="/GR" />
+					<Add option="/Od" />
+					<Add option="/Wall" />
+					<Add option="/Zi" />
+					<Add option="/Zi /D_DEBUG" />
+					<Add option="/DPLATFORM_WINDOWS" />
+					<Add directory="C:\Program Files\Microsoft Platform SDK\Include" />
+					<Add directory="C:\SDKs\irrlicht-1.7.1\include" />
+					<Add directory="C:\Program Files\boost\boost_1_40" />
+					<Add directory="C:\SDKs\OpenSSL\include" />
+				</Compiler>
+				<Linker>
+					<Add option="/DEBUG" />
+					<Add library="libeay32" />
+					<Add directory="C:\Program Files\Microsoft Platform SDK\Lib" />
+					<Add directory="C:\SDKs\irrlicht-1.6.1\lib" />
+					<Add directory="C:\Program Files\boost\boost_1_40\lib" />
+					<Add directory="C:\SDKs\OpenSSL\lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add before='cmd /c del &quot;$(PROJECT_DIR)Bin-Win\EnigmaCommon.lib&quot;' />
+					<Add after='cmd /c copy &quot;$(PROJECT_DIR)$(TARGET_OUTPUT_FILE)&quot; &quot;$(PROJECT_DIR)Bin-Win\EnigmaCommon.lib&quot;' />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Win32 Release">
+				<Option platforms="Windows;" />
+				<Option output="Bin-Win\libEnigmaCommon" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="msvctk" />
+				<Compiler>
+					<Add option="/MT" />
+					<Add option="/arch:SSE" />
+					<Add option="/GX" />
+					<Add option="/GR" />
+					<Add option="/Wall" />
+					<Add option="/DPLATFORM_WINDOWS" />
+					<Add directory="C:\Program Files\Microsoft Platform SDK\Include" />
+					<Add directory="C:\SDKs\irrlicht-1.7.1\include" />
+					<Add directory="C:\Program Files\boost\boost_1_40" />
+					<Add directory="C:\SDKs\OpenSSL\include" />
+				</Compiler>
+				<Linker>
+					<Add library="libeay32" />
+					<Add directory="C:\Program Files\Microsoft Platform SDK\Lib" />
+					<Add directory="C:\SDKs\irrlicht-1.6.1\lib" />
+					<Add directory="C:\Program Files\boost\boost_1_40\lib" />
+					<Add directory="C:\SDKs\OpenSSL\lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add before='cmd /c del &quot;$(PROJECT_DIR)Bin-Win\EnigmaCommon.lib&quot;' />
+					<Add after='cmd /c copy &quot;$(PROJECT_DIR)$(TARGET_OUTPUT_FILE)&quot; &quot;$(PROJECT_DIR)Bin-Win\EnigmaCommon.lib&quot;' />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Linux Debug">
+				<Option platforms="Unix;" />
+				<Option output="Bin-Linux\libEnigmaCommon" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DPLATFORM_LINUX" />
+					<Add directory="C:\Program Files\Microsoft Platform SDK\Include" />
+					<Add directory="C:\SDKs\irrlicht-1.6.1\include" />
+					<Add directory="C:\Program Files\boost\boost_1_40" />
+					<Add directory="C:\SDKs\OpenSSL\include" />
+				</Compiler>
+				<Linker>
+					<Add library="libeay32" />
+					<Add directory="C:\Program Files\Microsoft Platform SDK\Lib" />
+					<Add directory="C:\SDKs\irrlicht-1.6.1\lib" />
+					<Add directory="C:\Program Files\boost\boost_1_40\lib" />
+					<Add directory="C:\SDKs\OpenSSL\lib" />
+				</Linker>
+			</Target>
+			<Target title="Linux Release">
+				<Option platforms="Unix;" />
+				<Option output="Bin-Linux\libEnigmaCommon" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-pedantic" />
+					<Add option="-DPLATFORM_LINUX" />
+					<Add directory="\home\cschaefer\irrlicht-1.6.1\include" />
+				</Compiler>
+				<Linker>
+					<Add directory="\home\cschaefer\irrlicht-1.6.1\lib\Linux" />
+				</Linker>
+			</Target>
+			<Target title="BSD Debug">
+				<Option platforms="Unix;" />
+				<Option output="Bin-BSD\libEnigmaCommon" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-DPLATFORM_BSD" />
+				</Compiler>
+			</Target>
+			<Target title="BSD Release">
+				<Option platforms="Unix;" />
+				<Option output="Bin-BSD\libEnigmaCommon" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DPLATFORM_BSD" />
+				</Compiler>
+			</Target>
+			<Target title="Mac Debug">
+				<Option platforms="Mac;" />
+				<Option output="Bin-Mac\libEnigmaCommon" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-DPLATFORM_MAC" />
+					<Add directory="\Developer\SDKs\irrlicht-1.6\include" />
+					<Add directory="\usr\include" />
+					<Add directory="\usr\local\include" />
+					<Add directory="\sw\include" />
+					<Add directory="\opt\local\include" />
+				</Compiler>
+				<Linker>
+					<Add directory="\Developer\SDKs\irrlicht-1.6\lib\MacOSX" />
+					<Add directory="\usr\lib" />
+					<Add directory="\usr\local\lib" />
+					<Add directory="\sw\lib" />
+					<Add directory="\opt\local\lib" />
+				</Linker>
+			</Target>
+			<Target title="Mac Release">
+				<Option platforms="Mac;" />
+				<Option output="Bin-Mac\libEnigmaCommon" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DPLATFORM_MAC" />
+					<Add directory="\Developer\SDKs\irrlicht-1.6\include" />
+					<Add directory="\usr\include" />
+					<Add directory="\usr\local\include" />
+					<Add directory="\sw\include" />
+					<Add directory="\opt\local\include" />
+				</Compiler>
+				<Linker>
+					<Add directory="\Developer\SDKs\irrlicht-1.6\lib\MacOSX" />
+					<Add directory="\usr\lib" />
+					<Add directory="\usr\local\lib" />
+					<Add directory="\sw\lib" />
+					<Add directory="\opt\local\lib" />
+				</Linker>
+			</Target>
+			<Target title="OpenSolaris Debug">
+				<Option platforms="Unix;" />
+				<Option output="Bin-OpenSolaris\libEnigmaCommon" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-DPLATFORM_OPENSOLARIS" />
+				</Compiler>
+			</Target>
+			<Target title="OpenSolaris Release">
+				<Option platforms="Unix;" />
+				<Option output="Bin-OpenSolaris\libEnigmaCommon" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DPLATFORM_OPENSOLARIS" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="AuthenticationManagerBase.cpp" />
+		<Unit filename="AuthenticationManagerBase.hpp" />
+		<Unit filename="Channels.hpp" />
+		<Unit filename="ChatType.hpp" />
+		<Unit filename="CompareExchange.hpp" />
+		<Unit filename="EnigmaException.hpp" />
+		<Unit filename="InviteTypes.hpp" />
+		<Unit filename="Irrlicht.hpp" />
+		<Unit filename="ItemCategory.hpp" />
+		<Unit filename="ItemLocationType.hpp" />
+		<Unit filename="KickTypes.hpp" />
+		<Unit filename="ManagerBase.cpp" />
+		<Unit filename="ManagerBase.hpp" />
+		<Unit filename="Message.hpp" />
+		<Unit filename="Messages\ChangeMapRequestMessage.cpp" />
+		<Unit filename="Messages\ChangeMapRequestMessage.hpp" />
+		<Unit filename="Messages\ChangeMapResponseMessage.cpp" />
+		<Unit filename="Messages\ChangeMapResponseMessage.hpp" />
+		<Unit filename="Messages\CharacterCreationRequestMessage.cpp" />
+		<Unit filename="Messages\CharacterCreationRequestMessage.hpp" />
+		<Unit filename="Messages\CharacterCreationResponseMessage.cpp" />
+		<Unit filename="Messages\CharacterCreationResponseMessage.hpp" />
+		<Unit filename="Messages\CharacterListRequestMessage.cpp" />
+		<Unit filename="Messages\CharacterListRequestMessage.hpp" />
+		<Unit filename="Messages\CharacterListResponseMessage.cpp" />
+		<Unit filename="Messages\CharacterListResponseMessage.hpp" />
+		<Unit filename="Messages\CharacterSelectionRequestMessage.cpp" />
+		<Unit filename="Messages\CharacterSelectionRequestMessage.hpp" />
+		<Unit filename="Messages\CharacterSelectionResponseMessage.cpp" />
+		<Unit filename="Messages\CharacterSelectionResponseMessage.hpp" />
+		<Unit filename="Messages\ChatRequestMessage.cpp" />
+		<Unit filename="Messages\ChatRequestMessage.hpp" />
+		<Unit filename="Messages\ChatResponseMessage.cpp" />
+		<Unit filename="Messages\ChatResponseMessage.hpp" />
+		<Unit filename="Messages\CreatePlayerOrganizationRequestMessage.cpp" />
+		<Unit filename="Messages\CreatePlayerOrganizationRequestMessage.hpp" />
+		<Unit filename="Messages\CreatePlayerOrganizationResponseMessage.cpp" />
+		<Unit filename="Messages\CreatePlayerOrganizationResponseMessage.hpp" />
+		<Unit filename="Messages\InviteRequestMessage.cpp" />
+		<Unit filename="Messages\InviteRequestMessage.hpp" />
+		<Unit filename="Messages\InviteResponseMessage.cpp" />
+		<Unit filename="Messages\InviteResponseMessage.hpp" />
+		<Unit filename="Messages\ItemOnMapUpdateRequestMessage.cpp" />
+		<Unit filename="Messages\ItemOnMapUpdateRequestMessage.hpp" />
+		<Unit filename="Messages\ItemOnMapUpdateResponseMessage.cpp" />
+		<Unit filename="Messages\ItemOnMapUpdateResponseMessage.hpp" />
+		<Unit filename="Messages\ItemTransferRequestMessage.cpp" />
+		<Unit filename="Messages\ItemTransferRequestMessage.hpp" />
+		<Unit filename="Messages\ItemTransferResponseMessage.cpp" />
+		<Unit filename="Messages\ItemTransferResponseMessage.hpp" />
+		<Unit filename="Messages\KickRequestMessage.cpp" />
+		<Unit filename="Messages\KickRequestMessage.hpp" />
+		<Unit filename="Messages\KickResponseMessage.cpp" />
+		<Unit filename="Messages\KickResponseMessage.hpp" />
+		<Unit filename="Messages\LoginRequestMessage.cpp" />
+		<Unit filename="Messages\LoginRequestMessage.hpp" />
+		<Unit filename="Messages\LoginResponseMessage.cpp" />
+		<Unit filename="Messages\LoginResponseMessage.hpp" />
+		<Unit filename="Messages\MessageContainer.cpp" />
+		<Unit filename="Messages\MessageContainer.hpp" />
+		<Unit filename="Messages\MessageStatus.hpp" />
+		<Unit filename="Messages\ModifyPlayerOrganizationRankRequestMessage.cpp" />
+		<Unit filename="Messages\ModifyPlayerOrganizationRankRequestMessage.hpp" />
+		<Unit filename="Messages\ModifyPlayerOrganizationRankResponseMessage.cpp" />
+		<Unit filename="Messages\ModifyPlayerOrganizationRankResponseMessage.hpp" />
+		<Unit filename="Messages\MonsterOnMapUpdateRequestMessage.cpp" />
+		<Unit filename="Messages\MonsterOnMapUpdateRequestMessage.hpp" />
+		<Unit filename="Messages\MonsterOnMapUpdateResponseMessage.cpp" />
+		<Unit filename="Messages\MonsterOnMapUpdateResponseMessage.hpp" />
+		<Unit filename="Messages\MovementRequestMessage.cpp" />
+		<Unit filename="Messages\MovementRequestMessage.hpp" />
+		<Unit filename="Messages\MovementResponseMessage.cpp" />
+		<Unit filename="Messages\MovementResponseMessage.hpp" />
+		<Unit filename="Messages\NpcChatRequestMessage.cpp" />
+		<Unit filename="Messages\NpcChatRequestMessage.hpp" />
+		<Unit filename="Messages\NpcChatResponseMessage.cpp" />
+		<Unit filename="Messages\NpcChatResponseMessage.hpp" />
+		<Unit filename="Messages\NpcOnMapUpdateRequestMessage.cpp" />
+		<Unit filename="Messages\NpcOnMapUpdateRequestMessage.hpp" />
+		<Unit filename="Messages\NpcOnMapUpdateResponseMessage.cpp" />
+		<Unit filename="Messages\NpcOnMapUpdateResponseMessage.hpp" />
+		<Unit filename="Messages\PlayerListRequestMessage.cpp" />
+		<Unit filename="Messages\PlayerListRequestMessage.hpp" />
+		<Unit filename="Messages\PlayerListResponseMessage.cpp" />
+		<Unit filename="Messages\PlayerListResponseMessage.hpp" />
+		<Unit filename="Messages\PlayerOnMapUpdateRequestMessage.cpp" />
+		<Unit filename="Messages\PlayerOnMapUpdateRequestMessage.hpp" />
+		<Unit filename="Messages\PlayerOnMapUpdateResponseMessage.cpp" />
+		<Unit filename="Messages\PlayerOnMapUpdateResponseMessage.hpp" />
+		<Unit filename="Messages\RequestMessages.hpp">
+			<Option weight="49" />
+			<Option compiler="msvctk" use="0" buildCommand="$compiler /nologo $options $includes /c $file /Fo$object /P" />
+		</Unit>
+		<Unit filename="Messages\ResponseMessages.hpp">
+			<Option weight="49" />
+		</Unit>
+		<Unit filename="Messages\RollRequestMessage.cpp" />
+		<Unit filename="Messages\RollRequestMessage.hpp" />
+		<Unit filename="Messages\ServerTimeRequestMessage.cpp" />
+		<Unit filename="Messages\ServerTimeRequestMessage.hpp" />
+		<Unit filename="Messages\SetPlayerRankRequestMessage.cpp" />
+		<Unit filename="Messages\SetPlayerRankRequestMessage.hpp" />
+		<Unit filename="Messages\SetPlayerRankResponseMessage.cpp" />
+		<Unit filename="Messages\SetPlayerRankResponseMessage.hpp" />
+		<Unit filename="Messages\VoiceChatRequestMessage.cpp" />
+		<Unit filename="Messages\VoiceChatRequestMessage.hpp" />
+		<Unit filename="Messages\VoiceChatResponseMessage.cpp" />
+		<Unit filename="Messages\VoiceChatResponseMessage.hpp" />
+		<Unit filename="MovementManagerBase.cpp" />
+		<Unit filename="MovementManagerBase.hpp" />
+		<Unit filename="Number.hpp" />
+		<Unit filename="OrganizationTypes.hpp" />
+		<Unit filename="PlayerListType.hpp" />
+		<Unit filename="RequestMessageFactory.cpp" />
+		<Unit filename="RequestMessageFactory.hpp" />
+		<Unit filename="ResponseMessageFactory.cpp" />
+		<Unit filename="ResponseMessageFactory.hpp" />
+		<Unit filename="TypeDefs.hpp" />
+		<Unit filename="boost_foreach.hpp" />
+		<Unit filename="boost_lexical_cast.hpp" />
+		<Unit filename="climits.hpp" />
+		<Unit filename="enet.hpp" />
+		<Unit filename="iostream.hpp" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="queue.hpp" />
+		<Unit filename="std_map.hpp" />
+		<Unit filename="std_set.hpp" />
+		<Unit filename="stdafx.h" />
+		<Unit filename="string.hpp" />
+		<Unit filename="time.hpp" />
+		<Unit filename="vector.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

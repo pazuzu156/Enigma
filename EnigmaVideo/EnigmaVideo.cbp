@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EnigmaVideo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Debug">
+				<Option platforms="Windows;" />
+				<Option output="Bin-Win\libEnigmaVideo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="msvctk" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MT" />
+					<Add option="/GL" />
+					<Add option="/GX" />
+					<Add option="/GR" />
+					<Add option="/Od" />
+					<Add option="/Wall" />
+					<Add option="/Zi" />
+					<Add option="/Zi /D_DEBUG" />
+					<Add option="/DPLATFORM_WINDOWS" />
+					<Add directory="C:\Program Files\Microsoft Platform SDK\Include" />
+					<Add directory="C:\SDKs\irrlicht-1.7.1\include" />
+				</Compiler>
+				<Linker>
+					<Add option="/DEBUG" />
+					<Add library="dmoguids" />
+					<Add library="strmiids" />
+					<Add library="odbccp32" />
+					<Add library="kernel32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="Advapi32.lib" />
+					<Add library="ole32.lib" />
+					<Add directory="C:\Program Files\Microsoft Platform SDK\Lib" />
+					<Add directory="C:\SDKs\irrlicht-1.6.1\lib" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Release">
+				<Option platforms="Windows;" />
+				<Option output="Bin-Win\libEnigmaVideo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="msvctk" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MT" />
+					<Add option="/GL" />
+					<Add option="/arch:SSE" />
+					<Add option="/GX" />
+					<Add option="/GR" />
+					<Add option="/Wall" />
+					<Add option="/DPLATFORM_WINDOWS" />
+					<Add directory="C:\Program Files\Microsoft Platform SDK\Include" />
+					<Add directory="C:\SDKs\irrlicht-1.7.1\include" />
+				</Compiler>
+				<Linker>
+					<Add library="dmoguids" />
+					<Add library="strmiids" />
+					<Add library="odbccp32" />
+					<Add library="kernel32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="Advapi32.lib" />
+					<Add library="ole32.lib" />
+					<Add directory="C:\Program Files\Microsoft Platform SDK\Lib" />
+					<Add directory="C:\SDKs\irrlicht-1.6.1\lib" />
+				</Linker>
+			</Target>
+			<Target title="Linux Debug">
+				<Option platforms="Unix;" />
+				<Option output="Bin-Linux\libEnigmaVideo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-W" />
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-DPLATFORM_LINUX" />
+					<Add directory="\home\cschaefer\irrlicht-1.6.1\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+					<Add directory="\home\cschaefer\irrlicht-1.6.1\lib\Linux" />
+				</Linker>
+			</Target>
+			<Target title="Linux Release">
+				<Option platforms="Unix;" />
+				<Option output="Bin-Linux\libEnigmaVideo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-pedantic" />
+					<Add option="-W" />
+					<Add option="-DPLATFORM_LINUX" />
+					<Add directory="\home\cschaefer\irrlicht-1.6.1\include" />
+				</Compiler>
+				<Linker>
+					<Add directory="\home\cschaefer\irrlicht-1.6.1\lib\Linux" />
+				</Linker>
+			</Target>
+			<Target title="BSD Debug">
+				<Option platforms="Unix;" />
+				<Option output="Bin-BSD\libEnigmaVideo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-DPLATFORM_BSD" />
+				</Compiler>
+			</Target>
+			<Target title="BSD Release">
+				<Option platforms="Unix;" />
+				<Option output="Bin-BSD\libEnigmaVideo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DPLATFORM_BSD" />
+				</Compiler>
+			</Target>
+			<Target title="Mac Debug">
+				<Option platforms="Mac;" />
+				<Option output="Bin-Mac\libEnigmaVideo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-DPLATFORM_MAC" />
+					<Add directory="\Developer\SDKs\irrlicht-1.6\include" />
+					<Add directory="\usr\include" />
+					<Add directory="\usr\local\include" />
+					<Add directory="\sw\include" />
+					<Add directory="\opt\local\include" />
+				</Compiler>
+				<Linker>
+					<Add directory="\Developer\SDKs\irrlicht-1.6\lib\MacOSX" />
+					<Add directory="\usr\lib" />
+					<Add directory="\usr\local\lib" />
+					<Add directory="\sw\lib" />
+					<Add directory="\opt\local\lib" />
+				</Linker>
+			</Target>
+			<Target title="Mac Release">
+				<Option platforms="Mac;" />
+				<Option output="Bin-Mac\libEnigmaVideo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DPLATFORM_MAC" />
+					<Add directory="\Developer\SDKs\irrlicht-1.6\include" />
+					<Add directory="\usr\include" />
+					<Add directory="\usr\local\include" />
+					<Add directory="\sw\include" />
+					<Add directory="\opt\local\include" />
+				</Compiler>
+				<Linker>
+					<Add directory="\Developer\SDKs\irrlicht-1.6\lib\MacOSX" />
+					<Add directory="\usr\lib" />
+					<Add directory="\usr\local\lib" />
+					<Add directory="\sw\lib" />
+					<Add directory="\opt\local\lib" />
+				</Linker>
+			</Target>
+			<Target title="OpenSolaris Debug">
+				<Option platforms="Unix;" />
+				<Option output="Bin-OpenSolaris\libEnigmaVideo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-DPLATFORM_OPENSOLARIS" />
+				</Compiler>
+			</Target>
+			<Target title="OpenSolaris Release">
+				<Option platforms="Unix;" />
+				<Option output="Bin-OpenSolaris\libEnigmaVideo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DPLATFORM_OPENSOLARIS" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="..\EnigmaCommon\" />
+		</Compiler>
+		<Unit filename="DirectShowVideoPlayer.cpp" />
+		<Unit filename="DirectShowVideoPlayer.hpp" />
+		<Unit filename="IVideoPlayer.hpp" />
+		<Unit filename="VideoPlayerGUIElementFactory.cpp" />
+		<Unit filename="VideoPlayerGUIElementFactory.hpp" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

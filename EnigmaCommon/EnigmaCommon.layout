@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Win32 Release" />
+	<File name="AuthenticationManagerBase.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2996" topLine="31" />
+	</File>
+	<File name="AuthenticationManagerBase.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1845" topLine="7" />
+	</File>
+	<File name="CompareExchange.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1497" topLine="7" />
+	</File>
+	<File name="EnigmaException.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="1002" topLine="18" />
+	</File>
+	<File name="InviteTypes.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="967" topLine="0" />
+	</File>
+	<File name="Irrlicht.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1410" topLine="19" />
+	</File>
+	<File name="ItemCategory.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="72" topLine="0" />
+	</File>
+	<File name="ItemLocationType.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1248" topLine="0" />
+	</File>
+	<File name="KickTypes.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="988" topLine="0" />
+	</File>
+	<File name="ManagerBase.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1126" topLine="2" />
+	</File>
+	<File name="ManagerBase.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="1290" topLine="0" />
+	</File>
+	<File name="Message.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1078" topLine="6" />
+	</File>
+	<File name="Messages\ChangeMapRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1455" topLine="0" />
+	</File>
+	<File name="Messages\ChangeMapRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1216" topLine="0" />
+	</File>
+	<File name="Messages\ChangeMapResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1464" topLine="0" />
+	</File>
+	<File name="Messages\ChangeMapResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1220" topLine="0" />
+	</File>
+	<File name="Messages\CharacterCreationRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1274" topLine="0" />
+	</File>
+	<File name="Messages\CharacterCreationResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1278" topLine="0" />
+	</File>
+	<File name="Messages\CharacterListRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1258" topLine="0" />
+	</File>
+	<File name="Messages\CharacterListResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1048" topLine="3" />
+	</File>
+	<File name="Messages\CharacterListResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1292" topLine="0" />
+	</File>
+	<File name="Messages\CharacterSelectionRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1546" topLine="0" />
+	</File>
+	<File name="Messages\CharacterSelectionRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1278" topLine="0" />
+	</File>
+	<File name="Messages\CharacterSelectionResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1272" topLine="0" />
+	</File>
+	<File name="Messages\CharacterSelectionResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1282" topLine="0" />
+	</File>
+	<File name="Messages\ChatRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1514" topLine="13" />
+	</File>
+	<File name="Messages\ChatRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1350" topLine="15" />
+	</File>
+	<File name="Messages\ChatResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1523" topLine="33" />
+	</File>
+	<File name="Messages\ChatResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1356" topLine="16" />
+	</File>
+	<File name="Messages\CreatePlayerOrganizationRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1496" topLine="0" />
+	</File>
+	<File name="Messages\CreatePlayerOrganizationRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1343" topLine="2" />
+	</File>
+	<File name="Messages\CreatePlayerOrganizationResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1504" topLine="0" />
+	</File>
+	<File name="Messages\CreatePlayerOrganizationResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1347" topLine="2" />
+	</File>
+	<File name="Messages\InviteRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1549" topLine="5" />
+	</File>
+	<File name="Messages\InviteRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1267" topLine="5" />
+	</File>
+	<File name="Messages\InviteResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1557" topLine="5" />
+	</File>
+	<File name="Messages\InviteResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1269" topLine="8" />
+	</File>
+	<File name="Messages\ItemOnMapUpdateRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1266" topLine="0" />
+	</File>
+	<File name="Messages\ItemOnMapUpdateResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3603" topLine="113" />
+	</File>
+	<File name="Messages\ItemOnMapUpdateResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1300" topLine="26" />
+	</File>
+	<File name="Messages\ItemTransferRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2400" topLine="36" />
+	</File>
+	<File name="Messages\ItemTransferRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1266" topLine="12" />
+	</File>
+	<File name="Messages\ItemTransferResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2417" topLine="36" />
+	</File>
+	<File name="Messages\ItemTransferResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1270" topLine="12" />
+	</File>
+	<File name="Messages\KickRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1320" topLine="0" />
+	</File>
+	<File name="Messages\KickRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1255" topLine="2" />
+	</File>
+	<File name="Messages\KickResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1328" topLine="12" />
+	</File>
+	<File name="Messages\KickResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1259" topLine="4" />
+	</File>
+	<File name="Messages\LoginRequestMessage.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2691" topLine="31" />
+	</File>
+	<File name="Messages\LoginRequestMessage.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="1329" topLine="10" />
+	</File>
+	<File name="Messages\LoginResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1230" topLine="0" />
+	</File>
+	<File name="Messages\MessageContainer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="8912" topLine="241" />
+	</File>
+	<File name="Messages\MessageContainer.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2587" topLine="52" />
+	</File>
+	<File name="Messages\MessageStatus.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="119" topLine="0" />
+	</File>
+	<File name="Messages\ModifyPlayerOrganizationRankRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1785" topLine="5" />
+	</File>
+	<File name="Messages\ModifyPlayerOrganizationRankRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1359" topLine="5" />
+	</File>
+	<File name="Messages\ModifyPlayerOrganizationRankResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1795" topLine="5" />
+	</File>
+	<File name="Messages\ModifyPlayerOrganizationRankResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1363" topLine="5" />
+	</File>
+	<File name="Messages\MonsterOnMapUpdateRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1278" topLine="0" />
+	</File>
+	<File name="Messages\MonsterOnMapUpdateResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3565" topLine="92" />
+	</File>
+	<File name="Messages\MonsterOnMapUpdateResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1312" topLine="26" />
+	</File>
+	<File name="Messages\MovementRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4372" topLine="94" />
+	</File>
+	<File name="Messages\MovementRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1238" topLine="14" />
+	</File>
+	<File name="Messages\MovementResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5428" topLine="123" />
+	</File>
+	<File name="Messages\MovementResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1242" topLine="0" />
+	</File>
+	<File name="Messages\NpcChatRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1510" topLine="33" />
+	</File>
+	<File name="Messages\NpcChatRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1278" topLine="9" />
+	</File>
+	<File name="Messages\NpcChatResponseMessage.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1495" topLine="33" />
+	</File>
+	<File name="Messages\NpcChatResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1364" topLine="5" />
+	</File>
+	<File name="Messages\NpcOnMapUpdateRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1217" topLine="0" />
+	</File>
+	<File name="Messages\NpcOnMapUpdateResponseMessage.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1710" topLine="107" />
+	</File>
+	<File name="Messages\NpcOnMapUpdateResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1392" topLine="14" />
+	</File>
+	<File name="Messages\PlayerListRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1428" topLine="0" />
+	</File>
+	<File name="Messages\PlayerListRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1254" topLine="0" />
+	</File>
+	<File name="Messages\PlayerListResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1386" topLine="0" />
+	</File>
+	<File name="Messages\PlayerListResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1288" topLine="2" />
+	</File>
+	<File name="Messages\PlayerOnMapUpdateRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1274" topLine="0" />
+	</File>
+	<File name="Messages\PlayerOnMapUpdateResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3960" topLine="107" />
+	</File>
+	<File name="Messages\PlayerOnMapUpdateResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1308" topLine="26" />
+	</File>
+	<File name="Messages\RequestMessages.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1889" topLine="0" />
+	</File>
+	<File name="Messages\ResponseMessages.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1974" topLine="0" />
+	</File>
+	<File name="Messages\RollRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1581" topLine="3" />
+	</File>
+	<File name="Messages\RollRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1222" topLine="1" />
+	</File>
+	<File name="Messages\ServerTimeRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1246" topLine="0" />
+	</File>
+	<File name="Messages\SetPlayerRankRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2723" topLine="45" />
+	</File>
+	<File name="Messages\SetPlayerRankRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1363" topLine="7" />
+	</File>
+	<File name="Messages\SetPlayerRankResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2741" topLine="45" />
+	</File>
+	<File name="Messages\SetPlayerRankResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1367" topLine="7" />
+	</File>
+	<File name="Messages\VoiceChatRequestMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1897" topLine="28" />
+	</File>
+	<File name="Messages\VoiceChatRequestMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1310" topLine="8" />
+	</File>
+	<File name="Messages\VoiceChatResponseMessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1909" topLine="28" />
+	</File>
+	<File name="Messages\VoiceChatResponseMessage.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1314" topLine="8" />
+	</File>
+	<File name="MovementManagerBase.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1091" topLine="12" />
+	</File>
+	<File name="MovementManagerBase.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2071" topLine="11" />
+	</File>
+	<File name="Number.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="101" topLine="0" />
+	</File>
+	<File name="RequestMessageFactory.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6055" topLine="102" />
+	</File>
+	<File name="RequestMessageFactory.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1340" topLine="0" />
+	</File>
+	<File name="ResponseMessageFactory.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5634" topLine="93" />
+	</File>
+	<File name="ResponseMessageFactory.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1345" topLine="0" />
+	</File>
+	<File name="TypeDefs.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="191" topLine="0" />
+	</File>
+	<File name="boost_foreach.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1532" topLine="8" />
+	</File>
+	<File name="enet.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1512" topLine="0" />
+	</File>
+	<File name="iostream.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1522" topLine="5" />
+	</File>
+	<File name="main.c" open="0" top="0" tabpos="0">
+		<Cursor position="895" topLine="0" />
+	</File>
+	<File name="std_map.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1520" topLine="0" />
+	</File>
+	<File name="std_set.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1518" topLine="0" />
+	</File>
+	<File name="string.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1013" topLine="5" />
+	</File>
+	<File name="time.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1512" topLine="0" />
+	</File>
+	<File name="vector.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="60" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Enigma" Database="./Enigma.tags">
+  <Project Name="EnigmaClient-Console" Path="EnigmaClient-Console/EnigmaClient-Console.project"/>
+  <Project Name="EnigmaProtocol" Path="EnigmaProtocol/EnigmaProtocol.project"/>
+  <Project Name="EnigmaTransmission" Path="EnigmaTransmission/EnigmaTransmission.project"/>
+  <Project Name="EnigmaCommon" Path="EnigmaCommon/EnigmaCommon.project"/>
+  <Project Name="EnigmaServer" Path="EnigmaServer/EnigmaServer.project"/>
+  <Project Name="EnigmaSkills" Path="EnigmaSkills/EnigmaSkills.project"/>
+  <Project Name="EnigmaConfiguration" Path="EnigmaConfiguration/EnigmaConfiguration.project"/>
+  <Project Name="EnigmaDataAccess" Path="EnigmaDataAccess/EnigmaDataAccess.project"/>
+  <Project Name="EnigmaSession" Path="EnigmaSession/EnigmaSession.project"/>
+  <Project Name="EnigmaAudio" Path="EnigmaAudio/EnigmaAudio.project" Active="Yes"/>
+  <Project Name="EnigmaBuffs" Path="EnigmaBuffs/EnigmaBuffs.project"/>
+  <Project Name="EnigmaClient-Ogre" Path="EnigmaClient-Ogre/EnigmaClient-Ogre.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="EnigmaClient-Console" ConfigName="Debug"/>
+      <Project Name="EnigmaProtocol" ConfigName="Debug"/>
+      <Project Name="EnigmaTransmission" ConfigName="Debug"/>
+      <Project Name="EnigmaCommon" ConfigName="Debug"/>
+      <Project Name="EnigmaServer" ConfigName="Debug"/>
+      <Project Name="EnigmaSkills" ConfigName="Debug"/>
+      <Project Name="EnigmaConfiguration" ConfigName="Debug"/>
+      <Project Name="EnigmaDataAccess" ConfigName="Debug"/>
+      <Project Name="EnigmaSession" ConfigName="Debug"/>
+      <Project Name="EnigmaAudio" ConfigName="Debug"/>
+      <Project Name="EnigmaBuffs" ConfigName="Debug"/>
+      <Project Name="EnigmaClient-Ogre" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="EnigmaClient-Console" ConfigName="Debug"/>
+      <Project Name="EnigmaProtocol" ConfigName="Debug"/>
+      <Project Name="EnigmaTransmission" ConfigName="Debug"/>
+      <Project Name="EnigmaCommon" ConfigName="Debug"/>
+      <Project Name="EnigmaServer" ConfigName="Debug"/>
+      <Project Name="EnigmaSkills" ConfigName="Debug"/>
+      <Project Name="EnigmaConfiguration" ConfigName="Debug"/>
+      <Project Name="EnigmaDataAccess" ConfigName="Debug"/>
+      <Project Name="EnigmaSession" ConfigName="Debug"/>
+      <Project Name="EnigmaAudio" ConfigName="Debug"/>
+      <Project Name="EnigmaBuffs" ConfigName="Debug"/>
+      <Project Name="EnigmaClient-Ogre" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

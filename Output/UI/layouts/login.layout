@@ -1,0 +1,94 @@
+<GUILayout>
+    <Window Type="TaharezLook/FrameWindow" Name="LoginWindow" >
+        <Property Name="UnifiedAreaRect" Value="{{0.2175,0},{0.283333,0},{0.78875,0},{0.645,0}}" />
+        <Property Name="Font" Value="DejaVuSans-10" />
+        <Property Name="Text" Value="Login" />
+        <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+        <AutoWindow NamePath="__auto_closebutton__" >
+            <Property Name="Font" Value="DejaVuSans-10" />
+        </AutoWindow>
+        <Window Type="TaharezLook/Editbox" Name="UsernameEditbox" >
+            <Property Name="ID" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.284116,0},{0.124685,0},{0.818792,50},{0.0363664,50}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="MouseCursorImage" Value="" />
+        </Window>
+        <Window Type="TaharezLook/Editbox" Name="PasswordEditbox" >
+            <Property Name="ID" Value="2" />
+            <Property Name="UnifiedAreaRect" Value="{{0.281879,0},{0.426007,0},{0.823266,50},{0.327298,50}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="MaskText" Value="True" />
+            <Property Name="MouseCursorImage" Value="" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="LoginButton" >
+            <Property Name="ID" Value="3" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0626398,0},{0.685767,0},{0.201342,50},{0.685767,50}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="Login" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="ExitButton" >
+            <Property Name="ID" Value="4" />
+            <Property Name="UnifiedAreaRect" Value="{{0.697987,0},{0.690962,0},{0.823266,50},{0.690962,50}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="Exit" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="StaticText" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0581655,0},{0.124685,0},{0.266219,0},{0.303843,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="Username:" />
+            <AutoWindow NamePath="__auto_hscrollbar__" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <AutoWindow NamePath="__auto_thumb__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+                <AutoWindow NamePath="__auto_decbtn__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+                <AutoWindow NamePath="__auto_incbtn__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+            </AutoWindow>
+            <AutoWindow NamePath="__auto_vscrollbar__" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <AutoWindow NamePath="__auto_thumb__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+                <AutoWindow NamePath="__auto_decbtn__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+                <AutoWindow NamePath="__auto_incbtn__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+            </AutoWindow>
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="StaticText2" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0604027,0},{0.426007,0},{0.263982,0},{0.594774,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="Password:" />
+            <AutoWindow NamePath="__auto_hscrollbar__" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <AutoWindow NamePath="__auto_thumb__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+                <AutoWindow NamePath="__auto_decbtn__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+                <AutoWindow NamePath="__auto_incbtn__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+            </AutoWindow>
+            <AutoWindow NamePath="__auto_vscrollbar__" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <AutoWindow NamePath="__auto_thumb__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+                <AutoWindow NamePath="__auto_decbtn__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+                <AutoWindow NamePath="__auto_incbtn__" >
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                </AutoWindow>
+            </AutoWindow>
+        </Window>
+    </Window>
+</GUILayout>

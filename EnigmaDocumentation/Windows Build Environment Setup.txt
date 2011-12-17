@@ -1,0 +1,26 @@
+Windows Build Environment Setup Instructions
+
+Create a folder Named "SDKs" in "C:\"
+
+Download boost 1.47 (http://sourceforge.net/projects/boost/files/boost/1.47.0/)
+Unzip into "SDKs" folder
+Build boost per Boost Documentation
+create a symbolic link for the boost 1.47 folder named "boost" (mklink /D boost boost_1_47)
+
+Download OpenAL 1.1 SDK (http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx)
+Unzip into "SDKs" folder
+
+Download Ogre SDK (http://www.ogre3d.org/download/sdk)
+Unzip into "SDKs" folder
+
+Download sndfile installer (http://www.mega-nerd.com/libsndfile/#Download)
+Run installer and keep default directory.
+Copy "Mega-Nerd" folder from "Program Files" to "SDKs" folder.
+
+Download enet sources (http://enet.bespin.org/)
+Unzip sources to "SDKs" folder
+Build source per enet Documentation
+
+Download CEGUI SDK (http://www.cegui.org.uk/wiki/index.php/Downloads)
+Unzip to "SDKs" folder
+

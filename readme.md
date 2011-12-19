@@ -6,7 +6,7 @@ Documentation
 Documentation and build environment documentation is under the EnigmaDocumentation directory.
 <br>
 
-Colaborators
+Collaborators
 ------------
 disks86<br>
 Pazuzu156

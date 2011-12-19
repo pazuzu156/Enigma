@@ -8,8 +8,9 @@ Documentation and build environment documentation is under the EnigmaDocumentati
 
 Collaborators
 ------------
-disks86<br>
-Pazuzu156
+Christopher Schaefer<br>
+Brandon Warncke<br>
+Kaleb Klein
 
 Readme
 ------
